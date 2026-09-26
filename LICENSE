@@ -1,0 +1,65 @@
+Charakterkompendium — Lizenz
+
+Dieses Projekt enthält zwei unterschiedlich lizenzierte Bestandteile:
+
+============================================================
+1. Eigener Code (server.js, lib/, public/, scripts/ — mit
+   Ausnahme der unten gesondert genannten Datenanteile)
+============================================================
+
+MIT License
+
+Copyright (c) 2026 Martin
+
+Hiermit wird jeder Person, die eine Kopie dieser Software und der
+zugehörigen Dokumentationsdateien (die "Software") erhält, kostenlos die
+Erlaubnis erteilt, uneingeschränkt mit der Software zu verfahren,
+einschließlich und ohne Einschränkung der Rechte, sie zu nutzen, zu
+kopieren, zu verändern, zusammenzuführen, zu veröffentlichen, zu
+verbreiten, zu unterlizenzieren und/oder zu verkaufen, und Personen, denen
+die Software zur Verfügung gestellt wird, dies ebenfalls zu gestatten,
+unter den folgenden Bedingungen:
+
+Der obige Urheberrechtsvermerk und dieser Erlaubnisvermerk sind in allen
+Kopien oder wesentlichen Teilen der Software beizulegen.
+
+DIE SOFTWARE WIRD OHNE JEDE AUSDRÜCKLICHE ODER IMPLIZITE GEWÄHRLEISTUNG
+BEREITGESTELLT, EINSCHLIESSLICH DER GEWÄHRLEISTUNG ZUR BENUTZUNG FÜR DEN
+VORGESEHENEN ODER EINEM BESTIMMTEN ZWECK SOWIE DES AUSSCHLUSSES DER
+VERLETZUNG VON RECHTEN DRITTER.
+
+============================================================
+2. SRD-5.2-Spieldaten (lib/spell-data.js, in Datenbank/JSON
+   gecachte Spezies-/Hintergrund-/Klassendaten aus dem SRD)
+============================================================
+
+Dieses Werk enthält Material aus dem System Reference Document 5.2
+("SRD 5.2") von Wizards of the Coast LLC, verfügbar unter
+https://www.dndbeyond.com/srd. Das SRD 5.2 steht unter der Creative
+Commons Attribution 4.0 International License, verfügbar unter
+https://creativecommons.org/licenses/by/4.0/legalcode.
+
+Bezogen über die offene Open5e-API (https://open5e.com).
+
+============================================================
+3. Deutsche Kurztexte (lib/de-translations-species.js,
+   lib/de-translations-classes.js, sowie das "gistDe"-Feld
+   in lib/spell-data.js)
+============================================================
+
+Die deutschen Kurzbeschreibungen der Spezies-/Klassenmerkmale sind eigene
+Übersetzungen (keine offizielle Ulisses-Übersetzung), zulässig als
+Bearbeitung unter CC-BY-4.0.
+
+Die deutschen Zauber-Kurzfassungen ("gistDe") stammen aus einem separaten
+Tool desselben Autors ("DnD Zauberkompendium") und sind dort ausdrücklich
+als eigenständig formulierte Orientierungshilfen dokumentiert, keine
+Übersetzung des offiziellen Regeltexts:
+
+  "Deutsche Kurzfassung: zu jedem Zauber gibt es einen kurzen, selbst
+  formulierten deutschen Gist (1-2 Sätze, keine Übersetzung) [...] Die
+  deutsche Kurzfassung ist eine eigenständige, original formulierte
+  Orientierungshilfe, keine Übersetzung." — LIESMICH_Zauberkompendium.txt
+
+Der eigentliche Zauber-Beschreibungstext (Regeltext) stammt unverändert
+aus dem SRD 5.2 (siehe Abschnitt 2), nicht aus dem Zauberkompendium-Tool.

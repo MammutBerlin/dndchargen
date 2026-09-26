@@ -34,16 +34,12 @@ npm run build:linux    # AppImage erzeugen
 npm run build:win      # Windows-Installer erzeugen (braucht wine unter Linux)
 ```
 
-## Lizenzhinweis zu den Spieldaten
+## Lizenz
 
-Spezies-, Hintergrund-, Klassen- und Zauberdaten stammen aus der **SRD 5.2**
-(System Reference Document von Wizards of the Coast, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)),
-ursprünglich bezogen über die [Open5e-API](https://open5e.com) und fest in
-`renderer/index.html` eingebacken (kein Nachladen zur Laufzeit). Die
-deutschen Kurzfassungen der Zauber (`gistDe`-Feld) stammen aus einem
-separaten Zauberkompendium-Tool — **die Urheberschaft dieser Texte ist noch
-zu klären**, bevor eine offizielle Lizenz-Datei (z. B. MIT fürs Code, CC-BY
-für die SRD-Anteile) ergänzt wird. Bis dahin bewusst ohne `LICENSE`-Datei.
+Siehe [`LICENSE`](./LICENSE): eigener Code unter MIT, SRD-5.2-Spieldaten unter
+CC-BY-4.0 (Wizards of the Coast, bezogen über [Open5e](https://open5e.com),
+fest in `renderer/index.html` eingebacken), deutsche Kurztexte als eigene,
+unabhängig formulierte Bearbeitung — keine offizielle Übersetzung.
 
 ## Architektur
 
