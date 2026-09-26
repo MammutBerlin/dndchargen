@@ -92,6 +92,7 @@ ipcMain.handle('file:openJson', async () => {
 function createWindow(){
   const win = new BrowserWindow({
     width: 1200, height: 900,
+    icon: path.join(__dirname, 'build', 'icon.png'),
     webPreferences: { preload: path.join(__dirname, 'preload.js'), contextIsolation:true, nodeIntegration:false }
   });
   win.setMenuBarVisibility(false);
