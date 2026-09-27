@@ -1038,9 +1038,10 @@ const SPELL_SCHOOL_DE = {evocation:'Hervorrufung',conjuration:'Beschwörung',abj
 function insertSpellFromPicker(key){
   const s = srdSpells.find(x=>x.key===key);
   if(!s) return;
+  const fullDesc = s.higherLevel ? (s.description + ' — ' + s.higherLevel) : s.description;
   const line = pipeLineClient([
     String(s.level), s.name, '', SPELL_SCHOOL_DE[s.school]||s.school, s.castingTime, s.range,
-    (s.components||'').toUpperCase(), s.duration, s.description, s.gistDe||''
+    (s.components||'').toUpperCase(), s.duration, fullDesc, s.gistDe||''
   ]);
   appendLine('f_spells', line);
   render();
